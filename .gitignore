@@ -20,3 +20,9 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# vue-router
+typed-router.d.ts
+
+# auto-import
+components.d.ts
