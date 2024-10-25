@@ -7,6 +7,7 @@
 // Plugins
 import vuetify from './vuetify'
 import router from '../router'
+import VueTheMask from 'vue-the-mask'
 
 // Types
 import type { App } from 'vue'
@@ -15,4 +16,5 @@ export function registerPlugins (app: App) {
   app
     .use(vuetify)
     .use(router)
+    .use(VueTheMask as any)
 }
